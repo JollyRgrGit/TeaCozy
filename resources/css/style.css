@@ -1,0 +1,112 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+  .holder{
+    height:69px;
+    background-color: black;
+
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    display: flex;
+  }
+  .hlavna{
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .logo{
+      height:50px;
+      margin: 9px 0px 10px 10px;
+      display: flex;
+      flex: auto;
+    }
+    .linky{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .linky span{
+        margin-left:10px;
+        text-decoration: underline;
+        color: seashell !important;
+      }
+  .content{
+    width: 100%px;
+    margin:auto;
+    opacity: 0.9;
+    padding-top: 69px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .mission {
+      height: 700px;
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+      .missiontxt{
+        background-color: black;
+        margin:auto;
+        width:100%
+        }
+    .tom{
+      height: 700px;
+      width:1000px;
+      margin:auto;
+        }
+      .teabag{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+        .tea{
+          height: 270px;
+          width: 300px;
+          display: block;
+          margin-top:5px;
+          margin-left:15px;
+          Margin-right:15px;
+        }
+          .tea img{
+            height:200px;
+            width:300px;
+            margin-bottom: 15px;
+          }
+          .tea span{
+
+          }
+
+    .locations{
+    height: 500px;
+    Padding-top: 40px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    }
+      .mapa{
+        height: 200px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+      }
+        .loc{
+          width:300px;
+          opacity: 1;
+            }
+
+      .contact{
+        padding-top: 30px;
+        height: 200px;
+        text-align: center;
+      }
+      .noha{
+        text-align: left;
+      }
